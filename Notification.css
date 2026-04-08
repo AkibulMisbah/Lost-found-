@@ -1,0 +1,65 @@
+.notification {
+  background-color: white;
+  border-left: 4px solid #1f3a93;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.notification.unread {
+  background-color: #f0f7ff;
+}
+
+.notification.read {
+  opacity: 0.7;
+}
+
+.notification-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.notification-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 0.25rem 0;
+}
+
+.notification-message {
+  color: #64748b;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.notification-time {
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.mark-read-btn {
+  background-color: #059669;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  flex-shrink: 0;
+}
+
+.mark-read-btn:hover {
+  background-color: #047857;
+}
